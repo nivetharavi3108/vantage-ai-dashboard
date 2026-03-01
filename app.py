@@ -154,7 +154,7 @@ def generate_pdf(title, strategy="", extras=[], chart_type="daily"):
     pdf.ln(10)
     
     pdf.set_font("Arial", size=11)
-    # Strategy and Extras-il irukkira emojis-ai clean seiyum vari
+
     clean_strategy = re.sub(r'[^\x00-\x7F]+', '', strategy)
     pdf.multi_cell(0, 10, f"Strategy: {clean_strategy}")
     
