@@ -25,9 +25,3 @@ VANTAGE-AI is an advanced dashboard for digital creators to analyze post perform
 1. **Install Dependencies:** `pip install -r requirements.txt`
 2. **Run Backend (FastAPI):** `uvicorn main:app --reload`
 3. **Run Frontend (Streamlit):** `streamlit run app.py`
-
----
-
-## 👤 Credentials (for Testing)
-* **Creator ID:** `admin`
-* **Access Key:** `admin123`
